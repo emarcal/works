@@ -1,0 +1,120 @@
+.redborder {
+    border-color:red;
+}
+
+.ared {
+    color:red;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.center-abs {
+    position: absolute;
+    left: 50%;
+    top:0px;
+    margin-top: 350px;
+    transform: translate(-50%,-50%);
+}
+#content {
+    height:100vh;
+    background-color: rgba(0,0,0,0.3);
+   
+}
+.login {
+    min-height: 480px;
+    max-width: 320px;
+    text-align: center;
+}
+.login-box-logo {
+    margin-top:-80px;
+    width:220px;
+}
+@media only screen and (max-width: 2000px) {
+	.navbar-header .navbar-brand img {
+        width: 60% !important;
+        margin-top:-8px;
+	}
+	.container .collapse.navbar-collapse .nav.navbar-nav.navbar-right {
+		margin-top:0px !important;
+    }
+    .main-title{
+        margin-top:-104px !important;
+    }
+    
+}
+@media only screen and (max-width: 1500px) {
+	.navbar-header .navbar-brand img {
+        width: 60% !important;
+        margin-top:-5px;
+	}
+	.container .collapse.navbar-collapse .nav.navbar-nav.navbar-right {
+		margin-top:0px !important;
+    }
+    .main-title{
+        margin-top:-104px !important;
+    }
+    
+}
+@media only screen and (max-width: 780px) {
+	.navbar-header .navbar-brand img {
+        width: 350px !important;
+        margin-top:10px;
+	}
+	.container .collapse.navbar-collapse .nav.navbar-nav.navbar-right {
+		margin-top:10px !important;
+    }
+    .main-title{
+        margin-top:-104px !important;
+    }
+    
+}
+@media only screen and (min-width: 601px) {
+    .navbar-header .navbar-brand img {
+        width: 40% !important;
+    }
+    .container .collapse.navbar-collapse .nav.navbar-nav.navbar-right {
+        margin-top:-47px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+	.navbar-header .navbar-brand img {
+		width: 55% !important;
+	}
+	.container .collapse.navbar-collapse .nav.navbar-nav.navbar-right {
+		margin-top:0px !important;
+    }
+    .main-title{
+        margin-top:-104px !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 340px) {
+	.navbar-header .navbar-brand img {
+        width: 300px !important;
+        margin-top:10px !important;
+	}
+	.container .collapse.navbar-collapse .nav.navbar-nav.navbar-right {
+		margin-top:0px !important;
+    }
+    #main-title{
+        margin-top:-174px !important;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+	.navbar-header .navbar-brand img {
+        width: 330px !important;
+        margin-top:8px !important;
+	}
+	.container .collapse.navbar-collapse .nav.navbar-nav.navbar-right {
+		margin-top:0px !important;
+    }
+    .main-title{
+        margin-top:-174px !important;
+    }
+}
+

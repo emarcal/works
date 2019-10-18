@@ -1,0 +1,12 @@
+@media (max-width:700px){
+    .infor{
+
+    }
+    
+}@media (min-width:700px){
+    .infor{
+        float: left;
+        margin: 60px 0px 0px 0px;
+    }
+    
+}

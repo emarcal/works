@@ -1,0 +1,263 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+@media  (min-width: 0px) and (max-width:320px) {
+	#conversor{
+		margin-top:-90px;
+	}
+	#cscbt{
+		width:40%;
+		float:left;
+		text-align:center;
+	}
+	#swap_now{
+		width:57%;
+		float:left;
+		text-align:center;
+	}
+	.buttons_option{
+		margin-top:0px
+	}
+	#info{
+		display:none
+	}
+	#howworkh{
+		display: none;
+		width: 100%;
+	}
+	
+} 
+@media  (min-width: 321px) and (max-width:450px) {
+	
+	#conversor{
+		margin-top:-50px;
+	}
+	#cscbt{
+		width:40%;
+		float:left;
+		text-align:center;
+	}
+	#swap_now{
+		width:57%;
+		float:left;
+		text-align:center;
+	}
+	.buttons_option{
+		margin-top:0px
+	}
+	#info{
+		
+	}
+} 
+@media  (min-width: 780px) {
+	.swap {
+		margin-bottom: 40px;
+	}
+	.select-left {
+		width: 47.5%;
+		height: 55px;
+		border-radius: 28px;
+		box-shadow: 0 4px 5px #000;
+		background-color: #fff;
+		color: #444;
+		text-align: center;
+		float: left;
+	}
+	.label-select {
+		width: 17%;
+		height: 100%;
+		border: 1px solid transparent;
+		float: left;
+		font-size:9.5pt;
+		padding: 15px 10px;
+		color: #29ABE0;
+	}
+	.input-select {
+		width: 51%;
+		height: 100%;
+		border: 1px solid transparent;
+		float: left;
+	}
+	.input-select-input {
+		width: 100%;
+		height: 100%;
+		border: 1px solid transparent;
+		padding: 12px 5px;
+		text-align: right;
+		font-size: 15pt;
+	}
+	.select-select {
+		width: 32%;
+		height: 100%;
+		border-left: 1px solid #AAA;
+		float: left;
+	}
+	.select-select-select {
+		width: 80%;
+		border: 1px solid transparent;
+		text-align: right;
+		font-size: 12pt;
+		border: 1px solid transparent;
+	}
+	.row-button{
+		padding: 16px 5px;
+		width: 5%;
+		float: left;
+	}
+	.change-button{
+		text-decoration:none;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+	}
+	.change-button:hover{
+		text-decoration:none;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+		
+		color:#29ABE0;
+		
+	}
+	.change-button a{
+		text-decoration:none;
+		color:#fff;
+		transition-duration: 0.3s;
+	}
+	.change-button a:hover{
+		text-decoration:none;
+		color:#29ABE0;
+		transition-duration: 0.3s;
+	}
+	.select-right {
+		width: 47.5%;
+		height: 55px;
+		border-radius: 28px;
+		box-shadow: 0 4px 10px #000;
+		color: #444;
+		text-align: center;
+		background-color: #fff;
+		float: left;
+	}
+	.my-select {
+		background-color: #fff;
+		border: none;
+	}
+}
+@media  (min-width: 0px) and (max-width: 779px) {
+	.swap {
+		margin-bottom: 40px;
+	}
+	.select-left {
+		width: 100%;
+		height: 55px;
+		border-radius: 28px;
+		box-shadow: 0 4px 15px #000;
+		background-color: #fff;
+		color: #444;
+		text-align: center;
+		float: left;
+	}
+	.label-select {
+		width: 25%;
+		height: 100%;
+		border: 1px solid transparent;
+		float: left;
+		padding: 15px;
+		color: #29ABE0;
+	}
+	.input-select {
+		width: 40%;
+		height: 100%;
+		border: 1px solid transparent;
+		float: left;
+	}
+	.input-select-input {
+		width: 100%;
+		height: 100%;
+		border: 1px solid transparent;
+		padding: 10px;
+		text-align: right;
+		font-size: 18pt;
+	}
+	.select-select {
+		width: 35%;
+		height: 100%;
+		border-left: 1px solid #AAA;
+		float: left;
+	}
+	.select-select-select {
+		width: 80%;
+		border: 1px solid transparent;
+		text-align: right;
+		font-size: 12pt;
+		border: 1px solid transparent;
+	}
+	.row-button{
+		padding: 13px 5px;
+		width: 100%;
+		float: left;
+	}
+	.change-button{
+		text-decoration:none;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+	}
+	.change-button:hover{
+		text-decoration:none;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+	
+		color:#29ABE0;
+		
+	}
+	.change-button a{
+		text-decoration:none;
+		color:#fff;
+		transition-duration: 0.3s;
+	}
+	.change-button a:hover{
+		text-decoration:none;
+		color:#29ABE0;
+		transition-duration: 0.3s;
+	}
+	.select-right {
+		width: 100%;
+		height: 55px;
+		border-radius: 28px;
+		box-shadow: 0 4px 15px #000;
+		color: #444;
+		text-align: center;
+		background-color: #fff;
+		float: left;
+	}
+	.my-select {
+		background-color: #fff;
+		border: none;
+	}
+}
+
+
+
+
+@media  (max-width: 800px) {
+	.navbar-header .navbar-brand .logo-img {
+		padding-top: 25px
+	}
+}
+
+
+.btn-full-blue:hover {
+	background: white !important;
+	color: #3b29e2 !important;
+}
+
+.btn-trans-blue:hover {
+	background: white !important;
+	color: #3b29e2 !important;
+}
